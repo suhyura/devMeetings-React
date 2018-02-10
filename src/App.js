@@ -1,21 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Contacts from './Contacts'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+  constructor(props)
+  {
+      super(props)
   }
-}
+  onTextboxChange = (event) =>
+  {
 
-export default App;
+  }
+    render() {
+        const {contacts} = this.props.data
+      return (
+          <div>
+            <input type="text" id="inputArea" onChange ={this.onTextboxChange}/>
+            <Contacts contacts = {contacts} />
+        </div>
+      );
+    }
+  }
+
+  export default App

@@ -1,0 +1,35 @@
+{
+    "contacts":
+   [
+    {
+        "name": "Zula Blanda",
+        "phone": "(415) 663-9877",
+        "email": "Leopold6@yahoo.com",
+        "address": {
+          "street": "13088 Bednar Orchard",
+          "city": "Lake Ellen",
+          "state": "Ohio"
+        }
+      },
+      {
+        "name": "Otis Feeney",
+        "phone": "(647) 472-4160",
+        "email": "Hoyt91@yahoo.com",
+        "address": {
+          "street": "7459 Howell Circle",
+          "city": "Kirkhaven",
+          "state": "Missouri"
+        }
+      },
+      {
+        "name": "Miss Morris Johnston",
+        "phone": "(981) 256-8982",
+        "email": "Rowena_Gorczany44@gmail.com",
+        "address": {
+          "street": "58997 Crist Square",
+          "city": "East Arnoldo",
+          "state": "Nebraska"
+        }
+      }
+   ] 
+}
